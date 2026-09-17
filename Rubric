@@ -1,0 +1,57 @@
+# Decision rubric: [account or program]
+
+Owner:
+Version:
+Last tuned:
+
+## Account benchmarks, recomputed every run
+
+| Metric | Account average | Window |
+|---|---|---|
+| Cost per click |  |  |
+| Click-through |  |  |
+| CPM |  |  |
+
+**Materiality floor.** Minimum spend before any verdict applies:
+
+## Verdicts
+
+| Verdict | Trigger, written as a comparison | Owner action |
+|---|---|---|
+| SCALE |  |  |
+| HOLD |  |  |
+| DECIDE |  |  |
+| KILL |  |  |
+| ENDED |  |  |
+| DORMANT |  |  |
+
+## Goal-aware tests, in evaluation order
+
+| # | Objective | Matched by | Judged on |
+|---|---|---|---|
+| 1 |  |  |  |
+| 2 |  |  |  |
+| 3 |  |  |  |
+
+- [ ] Narrowest test runs first
+- [ ] Every objective matched on the platform objective field, name as fallback only
+- [ ] Every platform checked, none assumed
+
+## Watchlist checks
+
+- [ ] Restarted after going dark
+- [ ] Cost regime shift against the long baseline
+- [ ] Budget step change above [x]%
+- [ ] Flights expiring inside [n] days
+
+## Output
+
+- [ ] Leads with anomalies, not totals
+- [ ] Every verdict prints its arithmetic
+- [ ] Reaches the owner instead of waiting to be opened
+
+## Change log
+
+| Date | What changed | Why |
+|---|---|---|
+|  |  |  |
